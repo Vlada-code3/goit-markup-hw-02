@@ -1,8 +1,5 @@
 /* Главная */
-body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-}
+
 /** main text color #757575 **/
 /** text color of hero and address-footer #FFFFFF **/
 /** color of titles #212121 **/
@@ -10,7 +7,20 @@ body {
 /** footer imail and tel color: rgba(255, 255, 255, 0.6)**/
 /**background color of hero #2F303A **/
 
-/** Указание цвета **/
+:root {
+    --primary-text-color: #757575;
+    --text-title-color: #212121 ;
+    --hero-color:#FFFFFF;
+    --accent-color :#2196F3 ;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/** то что не надо применять **/
 .list {
     list-style: none;
 }
@@ -18,22 +28,22 @@ a:link {
     text-decoration: none;
 }
 
-/** header conteiner **/
+/** accents **/
 
  
 .link:hover {
-    color: #2196F3;
+    color: var(--accent-color );
 }
 .link:focus {
-    color: #2196F3;
+    color: var(--accent-color );
 }
 .contact-link {
-    color: #757575;
+    color: var(--primary-text-color);
     ;
 }
 .contact-link:hover,
 .contact-link:focus {
-    color: #2196F3;
+    color:var(--accent-color );
 }
 
 .order-service-button {
@@ -68,9 +78,7 @@ color: #212121;
 }
 
 /** Hero conteiner**/
-.hero-section {
 
-}
 .hero {
 
 font-family: Roboto;
@@ -117,6 +125,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+color: var(--text-title-color);
 }
 
 
@@ -127,7 +136,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--primary-text-color);
 }
 
 /** Works samples container **/
@@ -141,7 +150,7 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
+color: var(--text-title-color);
 }
 
 
@@ -154,6 +163,7 @@ font-weight: 700;
 line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
+color: var(--text-title-color);
 }
 .designer-title {
     font-family: Roboto;
@@ -162,6 +172,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 19px;
 letter-spacing: 0.03em;
+color: var(--text-title-color);
 }
 .par-text {
     font-family: Roboto;
@@ -170,7 +181,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 19px;
 letter-spacing: 0.03em;
-color: #757575
+color: var(--primary-text-color);
 }
 
 /** footer conteiner **/
@@ -210,6 +221,7 @@ color: rgba(255, 255, 255, 0.6);
 
 }
 
+/** portfolio page **/
 
 .portfolio .nav-button{
 background: #F5F4FA;
@@ -225,6 +237,24 @@ color: #212121;
 
 }
 .nav-button.current {
-    background: #2196F3;
+    background:var(--accent-color );
+}
+.portfolio .project {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.project-text {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
 }
 
