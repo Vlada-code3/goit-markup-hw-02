@@ -52,6 +52,7 @@ a:link {
 }
 
 
+
 /** Header conteiner **/
 .logo-header {
     font-family: Raleway;
@@ -250,6 +251,11 @@ color: #212121;
 
 .nav-button.current {
     background:var(--accent-color );
+}
+.portfolio .nav-button:hover,
+.portfolio .nav-button:focus {
+    color: #FFFFFF;
+    background-color:var(--accent-color );
 }
 .portfolio .project {
 font-family: Roboto;
