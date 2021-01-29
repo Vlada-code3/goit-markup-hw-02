@@ -228,6 +228,9 @@ text-align: left;
 color: rgba(255, 255, 255, 0.6);
 
 }
+.footer-block .color-logo {
+    color: #FFFFFF;
+}
 
 /** portfolio page **/
 
