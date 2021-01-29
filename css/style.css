@@ -76,6 +76,14 @@ color: #212121;
 .site-nav .link.current {
     color: #2196F3;
 }
+.contact-link {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
 
 /** Hero conteiner**/
 
