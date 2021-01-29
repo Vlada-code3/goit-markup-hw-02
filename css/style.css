@@ -234,8 +234,9 @@ text-align: center;
 letter-spacing: 0.03em;
 border-radius: 4px;
 color: #212121;
-
 }
+
+
 .nav-button.current {
     background:var(--accent-color );
 }
