@@ -248,7 +248,6 @@ border-radius: 4px;
 color: #212121;
 }
 
-
 .nav-button.current {
     background:var(--accent-color );
 }
